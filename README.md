@@ -3,7 +3,8 @@ docker-ibm-im
 
 Dockerfile that creates a docker image with latest centos6 base image and IBM Installation Manager installed. The generated image can be used as a base image to create many other Docker images with IBM products.
 
-For detailed instructions on how and why this file was created plese refer to the following blog post at DeveloperWorks - 
+For detailed instructions on how and why this file was created plese refer to the following blog post at DeveloperWorks -
+https://www.ibm.com/developerworks/community/blogs/devTips/entry/ibm_installation_manager_in_silent_mode_no_x_on_linux_quick_reference?lang=en
 
 version 1 - IBM Installation Manager(I.M) silent install on a docker centos6 linux image. You might want to do this using an official IBM product supported Red Hat or Suze image.
 See the complete list of supported O.S looking at the official IBM documentation.
