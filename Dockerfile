@@ -21,7 +21,7 @@ FROM centos:centos6
 MAINTAINER Marcos Maia "mpais@br.ibm.com / maia.marcos@gmail.com"
 
 # make sure centos is up to date and install unzip support to decompress I.M file later
-RUN yum update && yum install -y unzip
+RUN yum update -y && yum install -y unzip
 
 #create user and group to use with websphere and Installation Manager
 RUN groupadd -r wasadmin && useradd -r -g wasadmin wasadmin
